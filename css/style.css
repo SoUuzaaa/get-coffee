@@ -1,0 +1,82 @@
+:root {
+    --Preto: #242424;
+    --Amarelo: #FCA60F;
+    --Marrom: #C95E20;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* Navbar */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container nav a {
+    text-decoration: none;
+    color: var(--Preto);
+
+    margin-right: 4rem;
+}
+
+/* Main */
+.wave-one {
+    position: absolute;
+    height: 100%;
+    left: -10%;
+    bottom: -35%;
+}
+.wave-two {
+    position: absolute;
+    height: 100%;
+    right: -10%;
+    top: 15%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    position: relative;
+    z-index: 1;
+}
+.cup {
+    margin-right: 20rem;
+}
+.info {
+    align-items: flex-start;
+   margin-left: 10rem;
+}
+.text {
+    font-weight: 700;
+    font-size: 2rem;
+    width: 70%;
+}
+.btn-order {
+    margin: 4rem 0 2rem 0;
+    width: 15rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    background-color: var(--Amarelo);
+    border: none;
+    border-radius: 0.2rem;
+}
+.info p a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
